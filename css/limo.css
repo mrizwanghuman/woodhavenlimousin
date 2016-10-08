@@ -1,0 +1,205 @@
+body {
+  background-color: silver;
+ 
+
+}
+.container-fluid {
+/* background: url(../images/manhattan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+
+}
+.limo, .welcomes {
+  
+  color: white;
+  font-size: 2em;
+  width: 800px;
+  text-align: center;
+  
+}
+.limoani {
+  animation: animationed 10s ease forwards;
+}
+@keyframes animationed{
+  from {margin-left: 1400px;}
+  to { margin-left: 0;}
+
+}
+.booknow {
+  background: black;
+  color: white;
+  padding: 2%;
+  text-align: center;
+  border-radius: 10px;
+
+}
+.navigationlimo ul{
+
+  list-style-type: none;
+  position: absolute;
+  z-index: 999;
+
+}
+.navigationlimo ul a {
+  position: relative;
+    color: silver;
+    text-decoration: none;
+    background-color: white;
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 2em;
+    display: block;
+    padding: 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+  /*  -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);*/
+    box-shadow: 0px 9px 0px black, 0px 9px 25px black;
+    margin: 20px auto;
+  width: 160px;
+  text-align: center;
+  
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+.navigationlimo ul a:active {
+    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+}
+
+.fa-taxi {
+    font-size: 72vw;
+  color: black;
+  margin: 0 auto;
+ z-index: 9;
+
+
+}
+.fa {
+  width: 100%;
+
+}
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: yellow;
+  box-shadow: 0 3px 0 5px white;
+}
+  
+.circleone {
+  position: absolute;
+  top: 60.5%;
+  left: 16%;
+  
+}
+.circletwo {
+  position: absolute;
+  top: 60.5%;
+  right: 16%;
+  
+  transition: 5s;
+}
+.cabtaxi:hover .circletwo {
+  background: blue;
+}
+.nameco {
+
+  position: absolute;
+  left: 40%;
+  z-index: 999;
+}
+h1.logogg {
+  font-size: 4vw;
+   color: black;
+  position: absolute;
+  font-weight: 900;
+  font-family: 'Abril Fatface', cursive;
+  text-shadow: 10px 10px 10px gold;
+  letter-spacing: 10px;
+  top: 30%;
+  left: 28%;
+  z-index: 999;
+  
+}
+.nameco img {
+width: 60%;
+height: 200px;
+  position: relative;
+  left: 20%;
+
+}
+.slideshow {
+  width: 42%;
+  position: absolute;
+  top: 42%;
+  left: 29%;
+  z-index: -1;
+
+ 
+
+}
+.item img {
+  width: 100%;
+  max-height: 700px !important;
+
+
+}
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+.container{
+  background: black;
+}
+.headinger {
+  background: #34495e;
+}
+
+h1.mining {
+font-size: 52px;
+
+font-family: "Roboto Slab", serif;
+font-weight: 900;
+color: white;
+width: 50%;
+
+
+
+}
+.fa-car {
+  color:  yellow;
+  width: 10%;
+ 
+  font-size: 80%;
+}
+.sliderimag {
+  z-index: 0;
+
+}
+.panelone {
+  width: 20%;
+  margin-top: -47%;
+  z-index: 100;
+  position: absolute;
+ 
+}
